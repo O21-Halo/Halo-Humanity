@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>HaloRim_UNSC_AssaultRifleSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>6</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+					<clipPath>Weapons/UNSC/Assault_Rifle_Shot</clipPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HaloRim_UNSC_BattleRifleSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+					<clipPath>Weapons/UNSC/Battle_Rifle_Shot</clipPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HaloRim_UNSC_SMGSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+					<clipPath>Weapons/UNSC/SMG_Shot</clipPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HaloRim_UNSC_PistolSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+					<clipPath>Weapons/UNSC/Pistol_Shot</clipPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HaloRim_UNSC_RocketLauncherSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+					<clipPath>Weapons/UNSC/Rocket_Launcher_Shot</clipPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HaloRim_UNSC_ShotgunSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+					<clipPath>Weapons/UNSC/Shotgun_Shot</clipPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HaloRim_UNSC_SniperRifleSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+					<clipPath>Weapons/UNSC/Sniper_Rifle_Shot</clipPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HaloRim_UNSC_SpartanLaserSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+					<clipPath>Weapons/UNSC/Spartan_Laser_Shot</clipPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

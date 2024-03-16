@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef>
+		<defName>HaloRim_ODSTActiveDropPod</defName>
+		<label>odst drop pod</label>
+		<category>Item</category>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>ActiveDropPod</thingClass>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<tickerType>Normal</tickerType>
+		<soundOpen>DropPod_Open</soundOpen>
+		<graphicData>
+			<texPath>HaloRim/Building/ODSTPod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.9</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.6, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<selectable>true</selectable>
+	</ThingDef>
+
+	<ThingDef ParentName="SkyfallerBase">
+		<defName>HaloRim_ODSTDropPodIncoming</defName>
+		<label>odst drop pod (incoming)</label>
+		<thingClass>DropPodIncoming</thingClass>
+		<graphicData>
+			<texPath>HaloRim/Building/ODSTPod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutFlying</shaderType>
+			<drawSize>1.9</drawSize>
+		</graphicData>
+		<skyfaller>
+			<movementType>ConstantSpeed</movementType>
+			<shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+			<shadowSize>(2, 2)</shadowSize>
+			<anticipationSound>DropPod_Fall</anticipationSound>
+			<anticipationSoundTicks>100</anticipationSoundTicks>
+			<impactSound>DropPod_Impact</impactSound>
+			<motesPerCell>0</motesPerCell>
+		</skyfaller>
+	</ThingDef>
+
+</Defs>

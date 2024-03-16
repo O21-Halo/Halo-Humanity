@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="UNSCPawnBase" Abstract="True">
+		<race>Human</race>
+		<defaultFactionType>HaloRim_UnitedNationsSpaceCommand</defaultFactionType>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+		<invNutrition>2.55</invNutrition>
+		<initialWillRange>5~7</initialWillRange>
+		<initialResistanceRange>14~22</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- 
+		======================================================
+		==================== UNSC Marines ====================
+		======================================================
+	 -->
+
+	<PawnKindDef ParentName="UNSCPawnBase" Name="UNSCMarinePawnBase" Abstract="True">
+		<apparelTags>
+            <li>UNSCFatigues</li>
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>HaloRim_UNSC_fatigues</li>
+			<li>HaloRim_UNSC_MarineArmor</li>
+			<li>HaloRim_UNSC_MarinePauldrons</li>
+			<li>HaloRim_UNSC_MarineHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarinePawnBase">
+		<defName>HaloRim_UNSCTrader</defName>
+		<label>unsc trader</label>
+		<trader>true</trader>
+		<combatPower>20</combatPower>
+		<weaponTags>
+			<li>UNSCPistol</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarinePawnBase">
+		<defName>HaloRim_UNSCMarinePistol</defName>
+		<label>unsc pistol</label>
+		<combatPower>40</combatPower>
+		<weaponTags>
+			<li>UNSCPistol</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarinePawnBase">
+		<defName>HaloRim_UNSCMarineAssault</defName>
+		<label>unsc assault</label>
+		<combatPower>60</combatPower>
+		<weaponTags>
+			<li>UNSCAssaultRifle</li>
+			<li>UNSCBattleRifle</li>
+			<li>UNSCSMG</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarinePawnBase">
+		<defName>HaloRim_UNSCShotty</defName>
+		<label>unsc shotty</label>
+		<combatPower>100</combatPower>
+		<weaponTags>
+			<li>UNSCShotgun</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarinePawnBase">
+		<defName>HaloRim_UNSCMarineSniper</defName>
+		<label>unsc sniper</label>
+		<combatPower>120</combatPower>
+		<weaponTags>
+			<li>UNSCSniperRifle</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarinePawnBase">
+		<defName>HaloRim_UNSCMarineHeavy</defName>
+		<label>unsc heavy</label>
+		<combatPower>160</combatPower>
+		<weaponTags>
+			<li>UNSCRocketLauncher</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarinePawnBase">
+		<defName>HaloRim_UNSCMarineCommander</defName>
+		<label>unsc commander</label>
+		<factionLeader>True</factionLeader>
+		<combatPower>180</combatPower>
+		<weaponTags>
+			<li>UNSCPistol</li>
+			<li>UNSCAssaultRifle</li>
+			<li>UNSCBattleRifle</li>
+			<li>UNSCShotgun</li>
+			<li>UNSCSniperRifle</li>
+			<li>UNSCSMG</li>
+			<li>UNSCRocketLauncher</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<!-- 
+		=====================================================
+		==================== ODST Troops ====================
+		=====================================================
+	 -->
+
+	<PawnKindDef ParentName="UNSCPawnBase" Name="ODSTPawnBase" Abstract="True">
+		<apparelTags>
+            <li>UNSCFatigues</li>
+			<li>ODSTArmor</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>HaloRim_UNSC_fatigues</li>
+			<li>HaloRim_ODSTArmor</li>
+			<li>HaloRim_ODSTPauldrons</li>
+			<li>HaloRim_ODSTHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ODSTPawnBase">
+		<defName>HaloRim_ODSTAssault</defName>
+		<label>odst assault</label>
+		<combatPower>60</combatPower>
+		<weaponTags>
+			<li>UNSCAssaultRifle</li>
+			<li>UNSCBattleRifle</li>
+			<li>UNSCSMG</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ODSTPawnBase">
+		<defName>HaloRim_ODSTShotty</defName>
+		<label>odst shotty</label>
+		<combatPower>100</combatPower>
+		<weaponTags>
+			<li>UNSCShotgun</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ODSTPawnBase">
+		<defName>HaloRim_ODSTSniper</defName>
+		<label>odst sniper</label>
+		<combatPower>120</combatPower>
+		<weaponTags>
+			<li>UNSCSniperRifle</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ODSTPawnBase">
+		<defName>HaloRim_ODSTHeavy</defName>
+		<label>odst heavy</label>
+		<combatPower>160</combatPower>
+		<weaponTags>
+			<li>UNSCRocketLauncher</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</Defs>

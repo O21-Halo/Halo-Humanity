@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>HaloRim_Spartan</defName>
+		<label>spartan</label>
+		<description>A genetically modified human, capable of feats of unparalleled speed, strength and durability.</description>
+		<descriptionShort>A genetically modified human, capable of feats of unparalleled speed, strength and durability.</descriptionShort>
+		<inheritable>false</inheritable>
+		<iconPath>HaloRim/XenotypeIcons/Xenotype_Spartan</iconPath>
+		<genes>
+			<li>HaloRim_SpartanSpeed</li>
+			<li>HaloRim_SpartanStrength</li>
+			<li>HaloRim_SpartanDurability</li>
+			<li>Pain_Reduced</li>
+			<li>HaloRim_SpartanBuild</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>

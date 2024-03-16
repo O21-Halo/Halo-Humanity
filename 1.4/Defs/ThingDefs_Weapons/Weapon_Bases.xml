@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="HaloRimLaserBeamBase" ParentName="BaseBullet" Abstract="True">
+		<thingClass>VanillaWeaponsExpandedLaser.LaserBeam</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<beamGraphic>HaloRim_LaserGraphic</beamGraphic>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<explosionEffect>HaloRim_LaserImpact</explosionEffect>
+		<hitLivingEffect>HaloRim_LaserLivingImpact</hitLivingEffect>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<speed>1000</speed>
+		</projectile>
+		<seam>1</seam>
+        <lifetime>60</lifetime>
+	</ThingDef>
+
+	<ThingDef Name="HaloRimLaserGraphicBase">
+		<defName>HaloRim_LaserGraphic</defName>
+		<thingClass>VanillaWeaponsExpandedLaser.LaserBeamGraphic</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<label>laser beam</label>
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+	</ThingDef>
+
+</Defs>

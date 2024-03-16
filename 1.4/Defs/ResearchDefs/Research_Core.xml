@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>HaloRim_ResearchTab</defName>
+		<label>Halo</label>
+	</ResearchTabDef>
+	
+	<ResearchProjectDef Name="O21HaloResearch" Abstract="True">
+		<tab>HaloRim_ResearchTab</tab>
+		<techLevel>Spacer</techLevel>
+	</ResearchProjectDef>
+
+</Defs>

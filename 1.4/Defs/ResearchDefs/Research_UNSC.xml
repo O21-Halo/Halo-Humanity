@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCArmory</defName>
+		<label>UNSC Armory</label>
+		<description>Unlocks access to the basics of the UNSC and provides a route into further research of their equipment.</description>
+		<baseCost>2000</baseCost>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCConstruction</defName>
+		<label>UNSC Construction</label>
+		<description>Unlocks blueprints for building various UNSC structures and furniture.</description>
+		<baseCost>2500</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCArmory</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCTurrets</defName>
+		<label>UNSC Turrets</label>
+		<description>Unlocks blueprints for building UNSC turrets.</description>
+		<baseCost>3000</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCConstruction</li>
+			<li>HaloRim_UNSCWeapons</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCShielding</defName>
+		<label>UNSC Shielding</label>
+		<description>Unlocks blueprints for building UNSC shield generators.</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCTurrets</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef> -->
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCWeapons</defName>
+		<label>UNSC Weapons</label>
+		<description>Unlocks the basic set of UNSC weapons.</description>
+		<baseCost>3000</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCArmory</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCHeavyWeapons</defName>
+		<label>UNSC Heavy Weapons</label>
+		<description>Unlocks the heavier UNSC weapons.</description>
+		<baseCost>3000</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCWeapons</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCArmor</defName>
+		<label>UNSC Marine Armor</label>
+		<description>Unlocks basic UNSC armors.</description>
+		<baseCost>1500</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCArmory</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+	
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCAdvancedArmor</defName>
+		<label>ODST Armor</label>
+		<description>Unlocks advanced UNSC armors.</description>
+		<baseCost>1500</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCArmor</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef> -->
+	
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCExplosives</defName>
+		<label>UNSC Explosives</label>
+		<description>Unlocks grenades and grenade belts used by the UNSC.</description>
+		<baseCost>1000</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCWeapons</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef> -->
+	
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCSpartanFormula</defName>
+		<label>Spartan Formula</label>
+		<description>Unlocks an injectable formula which will turn any pawn into a powerful super soldier.</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCArmory</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef> -->
+	
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>HaloRim_UNSCSpartanArmor</defName>
+		<label>Spartan Armor</label>
+		<description>Unlocks armor usable by pawns after taking the spartan formula.</description>
+		<baseCost>2600</baseCost>
+		<prerequisites>
+			<li>HaloRim_UNSCArmor</li>
+			<li>HaloRim_UNSCSpartanFormula</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef> -->
+
+</Defs>

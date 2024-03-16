@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef>
+		<defName>HaloRim_SpartanSpeed</defName>
+		<label>spartan speed</label>
+		<description>TODO</description>
+		<iconPath>HaloRim/GeneIcons/Gene_SpartanSpeed</iconPath>
+		<displayOrderInCategory>5701</displayOrderInCategory>
+		<displayCategory>Movement</displayCategory>
+		<biostatArc>1</biostatArc>
+		<statOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+		</statOffsets>
+		<exclusionTags>
+			<li>MoveSpeed</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>HaloRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>HaloRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>HaloRim_SpartanStrength</defName>
+		<label>spartan strength</label>
+		<description>TODO</description>
+		<iconPath>HaloRim/GeneIcons/Gene_SpartanStrength</iconPath>
+		<displayOrderInCategory>5702</displayOrderInCategory>
+		<displayCategory>Violence</displayCategory>
+		<biostatArc>1</biostatArc>
+		<statFactors>
+			<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		</statFactors>
+		<exclusionTags>
+			<li>MeleeDamage</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>HaloRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>HaloRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>HaloRim_SpartanDurability</defName>
+		<label>spartan durability</label>
+		<description>TODO</description>
+		<iconPath>HaloRim/GeneIcons/Gene_SpartanStrength</iconPath>
+		<displayOrderInCategory>5703</displayOrderInCategory>
+		<displayCategory>Pain</displayCategory>
+		<biostatArc>1</biostatArc>
+		<statFactors>
+			<IncomingDamageFactor>0.60</IncomingDamageFactor>
+		</statFactors>
+		<exclusionTags>
+			<li>Toughness</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>HaloRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>HaloRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>HaloRim_SpartanBuild</defName>
+		<label>spartan build</label>
+		<description>Carriers of this gene have a much larger body scale than usual, bringing some overall stat changes.</description>
+		<iconPath>HaloRim/GeneIcons/Gene_SpartanBuild</iconPath>
+		<displayOrderInCategory>5704</displayOrderInCategory>
+		<displayCategory>Miscellaneous</displayCategory>
+		<biostatArc>1</biostatArc>
+		<exclusionTags>
+			<li>BodySize</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<statFactors>
+			<Mass>1.2</Mass>
+			<MeatAmount>1.2</MeatAmount>
+			<LeatherAmount>1.2</LeatherAmount>
+			<MeleeDamageFactor>1.1</MeleeDamageFactor>
+			<IncomingDamageFactor>0.7</IncomingDamageFactor>
+			<CarryingCapacity>1.5</CarryingCapacity>
+		</statFactors>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<bodyScaleFactor>(1.25, 1.25)</bodyScaleFactor>
+				<headScaleFactor>(1.25, 1.25)</headScaleFactor>
+				<backgroundPathEndogenes>HaloRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>HaloRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+</Defs>

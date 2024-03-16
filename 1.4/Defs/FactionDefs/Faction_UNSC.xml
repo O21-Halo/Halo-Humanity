@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="FactionBase">
+		<defName>HaloRim_UnitedNationsSpaceCommand</defName>
+		<label>UNSC</label>
+		<description>The United Nations Space Command, more commonly known as the UNSC, is the military, exploratory, and scientific agency of the Unified Earth Government.</description>
+		<pawnsPlural>Humans</pawnsPlural>
+		<settlementGenerationWeight>0.3</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<earliestRaidDays>85</earliestRaidDays>
+		<canMakeRandomly>True</canMakeRandomly>
+		<autoFlee>false</autoFlee>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Master Gunnery Sergeant</leaderTitle>
+		<permanentEnemy>false</permanentEnemy>
+    	<settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
+		<factionIconPath>World/UNSCBaseIcon</factionIconPath>
+		<colorSpectrum>
+			<li>(125, 153, 101)</li>
+		</colorSpectrum>
+		<fixedName>UNSC</fixedName>
+		<settlementNameMaker>HaloRim_SettlementNamer_UNSC</settlementNameMaker>
+		<techLevel>Spacer</techLevel>
+		<disallowedMemes>
+		  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+		  <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+		  <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<structureMemeWeights>
+		  <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+		  <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
+		  <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		  <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+		  <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+		  <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+		  <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+		  <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<backstoryFilters>
+			<li>
+			  <categories>
+				<li>Outlander</li>
+			  </categories>
+			  <commonality>0.05</commonality>
+			</li>
+			<li>
+			  <categories>
+				<li>Offworld</li>
+			  </categories>
+			  <commonality>0.95</commonality>
+			</li>
+		</backstoryFilters>
+		<caravanTraderKinds>
+			<li>HaloRim_UNSCBulkGoods</li>
+			<li>HaloRim_UNSCCombatSupplier</li>
+			<li>HaloRim_UNSCExoticGoods</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>HaloRim_UNSCVisitorStandard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>HaloRim_UNSCBaseStandard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>25</commonality>
+				<options>
+					<HaloRim_UNSCMarineHeavy>10</HaloRim_UNSCMarineHeavy>
+					<HaloRim_UNSCMarineSniper>60</HaloRim_UNSCMarineSniper>
+					<HaloRim_UNSCShotty>60</HaloRim_UNSCShotty>
+					<HaloRim_UNSCMarineAssault>120</HaloRim_UNSCMarineAssault>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>75</commonality>
+				<options>
+					<HaloRim_UNSCMarineSniper>20</HaloRim_UNSCMarineSniper>
+					<HaloRim_UNSCShotty>40</HaloRim_UNSCShotty>
+					<HaloRim_UNSCMarineAssault>60</HaloRim_UNSCMarineAssault>
+					<HaloRim_UNSCMarinePistol>60</HaloRim_UNSCMarinePistol>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>15</commonality>
+				<options>
+					<HaloRim_UNSCMarineCommander>1</HaloRim_UNSCMarineCommander>
+					<HaloRim_UNSCMarineHeavy>5</HaloRim_UNSCMarineHeavy>
+					<HaloRim_UNSCMarineSniper>10</HaloRim_UNSCMarineSniper>
+					<HaloRim_UNSCShotty>20</HaloRim_UNSCShotty>
+					<HaloRim_UNSCMarineAssault>60</HaloRim_UNSCMarineAssault>
+					<HaloRim_UNSCMarinePistol>120</HaloRim_UNSCMarinePistol>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<HaloRim_UNSCMarineHeavy>3</HaloRim_UNSCMarineHeavy>
+					<HaloRim_UNSCMarineSniper>10</HaloRim_UNSCMarineSniper>
+					<HaloRim_UNSCShotty>60</HaloRim_UNSCShotty>
+					<HaloRim_UNSCMarineAssault>90</HaloRim_UNSCMarineAssault>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<HaloRim_UNSCTrader>1</HaloRim_UNSCTrader>
+				</traders>
+				<carriers>
+					<Muffalo>1</Muffalo>
+				</carriers>
+				<guards>
+					<HaloRim_UNSCMarineSniper>3</HaloRim_UNSCMarineSniper>
+					<HaloRim_UNSCShotty>5</HaloRim_UNSCShotty>
+					<HaloRim_UNSCMarineAssault>15</HaloRim_UNSCMarineAssault>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<HaloRim_UNSCMarineCommander>1</HaloRim_UNSCMarineCommander>
+					<HaloRim_UNSCMarineHeavy>10</HaloRim_UNSCMarineHeavy>
+					<HaloRim_UNSCMarineSniper>40</HaloRim_UNSCMarineSniper>
+					<HaloRim_UNSCShotty>60</HaloRim_UNSCShotty>
+					<HaloRim_UNSCMarineAssault>120</HaloRim_UNSCMarineAssault>
+					<HaloRim_UNSCMarinePistol>120</HaloRim_UNSCMarinePistol>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<dropPodActive>HaloRim_ODSTActiveDropPod</dropPodActive>
+		<dropPodIncoming>HaloRim_ODSTDropPodIncoming</dropPodIncoming>
+	</FactionDef>
+	
+</Defs>

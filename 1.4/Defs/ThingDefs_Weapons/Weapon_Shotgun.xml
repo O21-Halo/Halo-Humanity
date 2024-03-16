@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMakeableGun" Name="UNSCShotgun">
+		<defName>HaloRim_UNSCShotgun</defName>
+		<label>UNSC Shotgun</label>
+		<description>A standard issue shotgun used byt the UNSC.</description>
+		<graphicData>
+			<texPath>HaloRim/Weapons/UNSC_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.0</drawSize>			
+		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>3.7</Mass>
+			<AccuracyTouch>0.57</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>UNSCWeapon</li>
+			<li>UNSCRanged</li>
+			<li>UNSCShotgun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>UNSCRanged</li>
+		</tradeTags>
+		<costList>
+			<Steel>80</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>HaloRim_UNSCWeapons</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>HaloRim_WorkbenchUNSC</li>
+            </recipeUsers>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>HaloRim_Bullet_UNSCShotgun</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>12.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<soundCast>HaloRim_UNSC_ShotgunSound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>HaloRim_Bullet_UNSCShotgun</defName>
+		<label>M90 blast</label>
+		<graphicData>
+			<texPath>HaloRim/Projectile/Bullet_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+      		<damageDef>Bullet</damageDef>
+			<damageAmountBase>22</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.16</armorPenetrationBase>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>HaloRim_InnieShotgun</defName>
+		<description>A standard issue shotgun used by the UNSC and 'aquired' by the Innies.</description>
+		<graphicData>
+			<texPath>HaloRim/Weapons/Innie_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+</Defs>

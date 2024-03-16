@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="ArmorMachineableBase" Name="ODSTArmor">
+		<defName>HaloRim_ODSTArmor</defName>
+		<label>odst armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>Ballistic armor commonly worn by ODST.</description>
+		<graphicData>
+			<texPath>HaloRim/Apparel/ODSTArmor/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(77, 77, 77)</color>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>HaloRim_UNSCArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>HaloRim_WorkbenchUNSC</li>
+            </recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2.5</Mass>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>600</MaxHitPoints>
+			<ArmorRating_Sharp>1.26</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.63</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.08</ArmorRating_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<tradeTags>
+			<li>UNSCApparel</li>
+		</tradeTags>
+		<apparel>
+			<wornGraphicPath>HaloRim/Apparel/ODSTArmor/Apparel</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Feet</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<tags>
+				<li>UNSCApparel</li>
+				<li>ODSTArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Single">
+			<color>(77, 77, 77)</color>
+		</colorGenerator>
+	</ThingDef>
+	
+	<ThingDef ParentName="ArmorMachineableBase" Name="ODSTPauldrons">
+		<defName>HaloRim_ODSTPauldrons</defName>
+		<label>odst pauldrons</label>
+		<techLevel>Spacer</techLevel>
+		<description>Armored pauldrons commonly worn by ODST.</description>
+		<graphicData>
+			<texPath>HaloRim/Apparel/ODSTPauldrons/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(77, 77, 77)</color>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>HaloRim_UNSCArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>HaloRim_WorkbenchUNSC</li>
+            </recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>1</Mass>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>600</MaxHitPoints>
+			<ArmorRating_Sharp>1.26</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.63</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.08</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<tradeTags>
+			<li>UNSCApparel</li>
+		</tradeTags>
+		<apparel>
+			<wornGraphicPath>HaloRim/Apparel/ODSTPauldrons/Apparel</wornGraphicPath>
+			<layers>
+				<li>ShellExtra</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</bodyPartGroups>
+			<tags>
+				<li>UNSCApparel</li>
+				<li>ODSTArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Single">
+			<color>(77, 77, 77)</color>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="ODSTHelmet">
+		<defName>HaloRim_ODSTHelmet</defName>
+		<label>odst helmet</label>
+		<techLevel>Spacer</techLevel>
+		<description>The helmet commonly worn by the ODST.</description>
+		<graphicData>
+			<texPath>HaloRim/Apparel/ODSTHelmet/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(77, 77, 77)</color>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>HaloRim_UNSCArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>HaloRim_WorkbenchUNSC</li>
+            </recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>25</Steel>
+		</costList>
+		<statBases>
+			<Mass>1.4</Mass>
+			<WorkToMake>4500</WorkToMake>
+			<MaxHitPoints>600</MaxHitPoints>
+			<ArmorRating_Sharp>1.26</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.63</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.08</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>HaloRim/Apparel/ODSTHelmet/Head</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<tags>
+				<li>UNSCApparel</li>
+				<li>ODSTArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Single">
+			<color>(77, 77, 77)</color>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>
