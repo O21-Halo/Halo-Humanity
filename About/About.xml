@@ -5,7 +5,7 @@
     <packageId>Neronix17.Halo.Humanity</packageId>
 	<url></url>
 	<supportedVersions>
-		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<description>Halo inspired mod adding weapons, apparel, buildings, races and more.</description>
 	<modDependencies>
