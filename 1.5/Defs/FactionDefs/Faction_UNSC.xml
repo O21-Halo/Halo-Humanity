@@ -16,7 +16,7 @@
 		<leaderTitle>Master Gunnery Sergeant</leaderTitle>
 		<permanentEnemy>false</permanentEnemy>
     	<settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
-		<factionIconPath>World/UNSCBaseIcon</factionIconPath>
+		<factionIconPath>HaloRim/World/UNSCBaseIcon</factionIconPath>
 		<colorSpectrum>
 			<li>(125, 153, 101)</li>
 		</colorSpectrum>
@@ -145,6 +145,8 @@
 		</pawnGroupMakers>
 		<dropPodActive>HaloRim_ODSTActiveDropPod</dropPodActive>
 		<dropPodIncoming>HaloRim_ODSTDropPodIncoming</dropPodIncoming>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
 	</FactionDef>
 	
 </Defs>

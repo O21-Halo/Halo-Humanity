@@ -86,11 +86,10 @@
 			<MeleeDamageFactor>1.1</MeleeDamageFactor>
 			<IncomingDamageFactor>0.7</IncomingDamageFactor>
 			<CarryingCapacity>1.5</CarryingCapacity>
+			<VEF_CosmeticBodySize_Multiplier>1.25</VEF_CosmeticBodySize_Multiplier>
 		</statFactors>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-				<bodyScaleFactor>(1.25, 1.25)</bodyScaleFactor>
-				<headScaleFactor>(1.25, 1.25)</headScaleFactor>
 				<backgroundPathEndogenes>HaloRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>HaloRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
 			</li>

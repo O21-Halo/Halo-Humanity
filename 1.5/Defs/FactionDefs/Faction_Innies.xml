@@ -16,7 +16,7 @@
 		<leaderTitle></leaderTitle>
 		<permanentEnemy>false</permanentEnemy>
 			<settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
-		<factionIconPath>World/InnieBaseIcon</factionIconPath>
+		<factionIconPath>HaloRim/World/InnieBaseIcon</factionIconPath>
 		<colorSpectrum>
 			<li>(173, 57, 49)</li>
 		</colorSpectrum>
@@ -117,6 +117,8 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
 	</FactionDef>
 	
 </Defs>
