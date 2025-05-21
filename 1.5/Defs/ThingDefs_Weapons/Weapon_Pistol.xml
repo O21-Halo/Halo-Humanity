@@ -6,7 +6,7 @@
 		<label>UNSC Pistol</label>
 		<description>A standard issue pistol used by the UNSC.</description>
 		<graphicData>
-			<texPath>HaloRim/Weapons/UNSC_Pistol</texPath>
+			<texPath>HaloRim/Weapons/Pistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.0</drawSize>			
 		</graphicData>
@@ -92,14 +92,5 @@
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
-
-	<ThingStyleDef>
-		<defName>HaloRim_InniePistol</defName>
-		<description>A standard issue pistol used by the UNSC and 'aquired' by the Innies.</description>
-		<graphicData>
-			<texPath>HaloRim/Weapons/Innie_Pistol</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-	</ThingStyleDef>
 
 </Defs>

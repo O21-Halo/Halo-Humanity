@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<FactionDef ParentName="FactionBase">
@@ -15,7 +15,7 @@
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Master Gunnery Sergeant</leaderTitle>
 		<permanentEnemy>false</permanentEnemy>
-    	<settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
+		<settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
 		<factionIconPath>HaloRim/World/UNSCBaseIcon</factionIconPath>
 		<colorSpectrum>
 			<li>(125, 153, 101)</li>
@@ -24,32 +24,32 @@
 		<settlementNameMaker>HaloRim_SettlementNamer_UNSC</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<disallowedMemes>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 		</disallowedMemes>
 		<structureMemeWeights>
-		  <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
-		  <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
-		  <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-		  <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
-		  <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
-		  <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
-		  <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
-		  <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
 		</structureMemeWeights>
 		<backstoryFilters>
 			<li>
-			  <categories>
-				<li>Outlander</li>
-			  </categories>
-			  <commonality>0.05</commonality>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+				<commonality>0.05</commonality>
 			</li>
 			<li>
-			  <categories>
-				<li>Offworld</li>
-			  </categories>
-			  <commonality>0.95</commonality>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.95</commonality>
 			</li>
 		</backstoryFilters>
 		<caravanTraderKinds>
@@ -108,6 +108,16 @@
 				</options>
 			</li>
 			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<HaloRim_SpartanAssault>15</HaloRim_SpartanAssault>
+					<HaloRim_UNSCShotty>20</HaloRim_UNSCShotty>
+					<HaloRim_UNSCMarineAssault>60</HaloRim_UNSCMarineAssault>
+					<HaloRim_UNSCMarinePistol>120</HaloRim_UNSCMarinePistol>
+				</options>
+			</li>
+			<li>
 				<kindDef>Peaceful</kindDef>
 				<commonality>100</commonality>
 				<options>
@@ -135,6 +145,7 @@
 				<kindDef>Settlement</kindDef>
 				<options>
 					<HaloRim_UNSCMarineCommander>1</HaloRim_UNSCMarineCommander>
+					<HaloRim_SpartanAssault>2</HaloRim_SpartanAssault>
 					<HaloRim_UNSCMarineHeavy>10</HaloRim_UNSCMarineHeavy>
 					<HaloRim_UNSCMarineSniper>40</HaloRim_UNSCMarineSniper>
 					<HaloRim_UNSCShotty>60</HaloRim_UNSCShotty>
@@ -148,5 +159,5 @@
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
 	</FactionDef>
-	
+
 </Defs>

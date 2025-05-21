@@ -6,7 +6,7 @@
 		<label>UNSC Battle Rifle</label>
 		<description>A standard issue Battle Rifle for the UNSC.</description>
 		<graphicData>
-			<texPath>HaloRim/Weapons/UNSC_BattleRifle</texPath>
+			<texPath>HaloRim/Weapons/BattleRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -92,14 +92,5 @@
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
-
-	<ThingStyleDef>
-		<defName>HaloRim_InnieBattleRifle</defName>
-		<description>A standard issue battle rifle used by the UNSC and 'aquired' by the Innies.</description>
-		<graphicData>
-			<texPath>HaloRim/Weapons/Innie_BattleRifle</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-	</ThingStyleDef>
 
 </Defs>

@@ -6,7 +6,7 @@
 		<label>UNSC Rocket Launcher</label>
 		<description>A standard issue rocket launcher used by the UNSC</description>
 		<graphicData>
-			<texPath>HaloRim/Weapons/UNSC_RocketLauncher</texPath>
+			<texPath>HaloRim/Weapons/RocketLauncher</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.25</drawSize>			
 		</graphicData>
@@ -94,14 +94,5 @@
 			<soundExplode>HaloRim_UNSC_RocketExplosion</soundExplode>
 		</projectile>
 	</ThingDef>
-
-	<ThingStyleDef>
-		<defName>HaloRim_InnieRocketLauncher</defName>
-		<description>A standard issue rocket launcher used by the UNSC and 'aquired' by the Innies.</description>
-		<graphicData>
-			<texPath>HaloRim/Weapons/Innie_RocketLauncher</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-	</ThingStyleDef>
 
 </Defs>

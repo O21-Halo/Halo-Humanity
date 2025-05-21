@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<PawnKindDef Name="UNSCPawnBase" Abstract="True">
@@ -9,17 +9,22 @@
 		<invNutrition>2.55</invNutrition>
 		<initialWillRange>5~7</initialWillRange>
 		<initialResistanceRange>14~22</initialResistanceRange>
+		<weaponMoney>300~1200</weaponMoney>
+		<apparelMoney>600~1800</apparelMoney>
+		<isFighter>true</isFighter>
+		<itemQuality>Normal</itemQuality>
+		<gearHealthRange>0.85~2.0</gearHealthRange>
 	</PawnKindDef>
 
 	<!-- 
 		======================================================
 		==================== UNSC Marines ====================
 		======================================================
-	 -->
+	-->
 
 	<PawnKindDef ParentName="UNSCPawnBase" Name="UNSCMarinePawnBase" Abstract="True">
 		<apparelTags>
-            <li>UNSCFatigues</li>
+			<li>UNSCFatigues</li>
 			<li>UNSCMarine</li>
 		</apparelTags>
 		<apparelRequired>
@@ -107,11 +112,11 @@
 		=====================================================
 		==================== ODST Troops ====================
 		=====================================================
-	 -->
+	-->
 
 	<PawnKindDef ParentName="UNSCPawnBase" Name="ODSTPawnBase" Abstract="True">
 		<apparelTags>
-            <li>UNSCFatigues</li>
+			<li>UNSCFatigues</li>
 			<li>ODSTArmor</li>
 		</apparelTags>
 		<apparelRequired>
@@ -157,6 +162,51 @@
 		<combatPower>160</combatPower>
 		<weaponTags>
 			<li>UNSCRocketLauncher</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<!-- 
+		=====================================================
+		====================== SPARTAN ======================
+		=====================================================
+	-->
+
+	<PawnKindDef ParentName="UNSCPawnBase" Name="UNSCSpartanPawnBase" Abstract="True">
+		<xenotypeSet>
+			<xenotypeChances>
+				<HaloRim_Spartan>999</HaloRim_Spartan>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
+		<apparelTags>
+			<li>UNSCFatigues</li>
+			<li>MJOLNIRArmor</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>HaloRim_UNSC_fatigues</li>
+			<li>HaloRim_MJOLNIRArmor</li>
+			<li>HaloRim_MJOLNIRPauldrons</li>
+			<li>HaloRim_MJOLNIRHelmet</li>
+		</apparelRequired>
+		<weaponMoney>1200~3600</weaponMoney>
+		<apparelMoney>6000~18000</apparelMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<gearHealthRange>2.0~2.0</gearHealthRange>
+		<techHediffsChance>0.15</techHediffsChance>
+		<techHediffsMoney>0~1800</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCSpartanPawnBase">
+		<defName>HaloRim_SpartanAssault</defName>
+		<label>spartan</label>
+		<combatPower>250</combatPower>
+		<weaponTags>
+			<li>UNSCAssaultRifle</li>
+			<li>UNSCBattleRifle</li>
+			<li>UNSCSMG</li>
 		</weaponTags>
 	</PawnKindDef>
 

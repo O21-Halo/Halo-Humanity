@@ -6,7 +6,7 @@
 		<label>UNSC Assault Rifle</label>
 		<description>A standard issue assault rifle for the UNSC.</description>
 		<graphicData>
-			<texPath>HaloRim/Weapons/UNSC_AssaultRifle</texPath>
+			<texPath>HaloRim/Weapons/AssaultRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -92,14 +92,5 @@
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
-
-	<ThingStyleDef>
-		<defName>HaloRim_InnieAssaultRifle</defName>
-		<description>A standard issue assault rifle used by the UNSC and 'aquired' by the Innies.</description>
-		<graphicData>
-			<texPath>HaloRim/Weapons/Innie_AssaultRifle</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-	</ThingStyleDef>
 
 </Defs>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef ParentName="BaseMakeableGun" Name="UNSCSniperRifle">
@@ -7,7 +7,7 @@
 		<description>A standard issue sniper rifle used by the UNSC.</description>
 		<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
 		<graphicData>
-			<texPath>HaloRim/Weapons/UNSC_SniperRifle</texPath>
+			<texPath>HaloRim/Weapons/SniperRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.25</drawSize>
 		</graphicData>
@@ -41,9 +41,9 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>HaloRim_WorkbenchUNSC</li>
-            </recipeUsers>
+			<recipeUsers Inherit="False">
+				<li>HaloRim_WorkbenchUNSC</li>
+			</recipeUsers>
 		</recipeMaker>
 		<verbs>
 			<li>
@@ -95,14 +95,5 @@
 			<speed>110</speed>
 		</projectile>
 	</ThingDef>
-
-	<ThingStyleDef>
-		<defName>HaloRim_InnieSniperRifle</defName>
-		<description>A standard issue sniper rifle used by the UNSC and 'aquired' by the Innies.</description>
-		<graphicData>
-			<texPath>HaloRim/Weapons/Innie_SniperRifle</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-	</ThingStyleDef>
 
 </Defs>
