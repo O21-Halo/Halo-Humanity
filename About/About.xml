@@ -3,7 +3,7 @@
 	<name>Halo - Humanity</name>
 	<author>Neronix17</author>
     <packageId>Neronix17.Halo.Humanity</packageId>
-	<url></url>
+	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
@@ -20,9 +20,15 @@
 			<displayName>Tabula Rasa</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>Neronix17.Asimov</packageId>
+			<displayName>Asimov</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3096481956</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>neronix17.toolbox</li>
+		<li>Neronix17.Asimov</li>
 	</loadAfter>
 </ModMetaData>
