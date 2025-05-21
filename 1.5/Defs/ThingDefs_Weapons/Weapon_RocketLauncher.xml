@@ -32,7 +32,7 @@
 		</tradeTags>
 		<costList>
 			<Steel>100</Steel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisite>HaloRim_UNSCHeavyWeapons</researchPrerequisite>

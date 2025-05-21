@@ -9,7 +9,7 @@
 		<invNutrition>2.55</invNutrition>
 		<initialWillRange>5~7</initialWillRange>
 		<initialResistanceRange>14~22</initialResistanceRange>
-		<weaponMoney>300~1200</weaponMoney>
+		<weaponMoney>1000~2200</weaponMoney>
 		<apparelMoney>600~1800</apparelMoney>
 		<isFighter>true</isFighter>
 		<itemQuality>Normal</itemQuality>
