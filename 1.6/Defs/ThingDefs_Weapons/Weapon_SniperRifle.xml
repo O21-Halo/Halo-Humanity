@@ -5,7 +5,7 @@
 		<defName>HaloRim_UNSCSniperRifle</defName>
 		<label>UNSC Sniper Rifle</label>
 		<description>A standard issue sniper rifle used by the UNSC.</description>
-		<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<thingClass>VEF.Weapons.LaserGun</thingClass>
 		<graphicData>
 			<texPath>HaloRim/Weapons/SniperRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -78,7 +78,7 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef Class="VanillaWeaponsExpandedLaser.LaserBeamDef" ParentName="HaloRimLaserBeamBase">
+	<ThingDef Class="VEF.Weapons.LaserBeamDef" ParentName="HaloRimLaserBeamBase">
 		<defName>HaloRim_Bullet_UNSCSniperRifle</defName>
 		<label>SRS99 bullet</label>
 		<graphicData>

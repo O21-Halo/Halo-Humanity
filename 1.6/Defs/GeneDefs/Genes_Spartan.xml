@@ -4,19 +4,19 @@
 	<GeneDef>
 		<defName>HaloRim_SpartanSpeed</defName>
 		<label>spartan speed</label>
-		<description>TODO</description>
+		<description>Carriers of this gene have hugely increased physical movement speed, allowing them to dodge easily, or traverse long distances in a fraction of the time a baseliner would.</description>
 		<iconPath>HaloRim/GeneIcons/Gene_SpartanSpeed</iconPath>
 		<displayOrderInCategory>5701</displayOrderInCategory>
 		<displayCategory>Movement</displayCategory>
 		<biostatArc>1</biostatArc>
 		<statOffsets>
-			<MoveSpeed>0.4</MoveSpeed>
+			<MoveSpeed>1.5</MoveSpeed>
 		</statOffsets>
 		<exclusionTags>
 			<li>MoveSpeed</li>
 		</exclusionTags>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>HaloRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>HaloRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
 			</li>
@@ -26,19 +26,20 @@
 	<GeneDef>
 		<defName>HaloRim_SpartanStrength</defName>
 		<label>spartan strength</label>
-		<description>TODO</description>
+		<description>Carriers of this gene have a massive strength increase, their melee attacks doing devastating damage to anything they hit, and they can carry much more.</description>
 		<iconPath>HaloRim/GeneIcons/Gene_SpartanStrength</iconPath>
 		<displayOrderInCategory>5702</displayOrderInCategory>
 		<displayCategory>Violence</displayCategory>
 		<biostatArc>1</biostatArc>
 		<statFactors>
-			<MeleeDamageFactor>2.0</MeleeDamageFactor>
+			<MeleeDamageFactor>3.0</MeleeDamageFactor>
+			<CarryingCapacity>1.5</CarryingCapacity>
 		</statFactors>
 		<exclusionTags>
 			<li>MeleeDamage</li>
 		</exclusionTags>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>HaloRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>HaloRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
 			</li>
@@ -48,19 +49,19 @@
 	<GeneDef>
 		<defName>HaloRim_SpartanDurability</defName>
 		<label>spartan durability</label>
-		<description>TODO</description>
+		<description>Carriers of this gene have an incredibly durable body, allowing them to take significantly more damage before feeling the affects as much as a typical baseliner.</description>
 		<iconPath>HaloRim/GeneIcons/Gene_SpartanStrength</iconPath>
 		<displayOrderInCategory>5703</displayOrderInCategory>
 		<displayCategory>Pain</displayCategory>
 		<biostatArc>1</biostatArc>
 		<statFactors>
-			<IncomingDamageFactor>0.60</IncomingDamageFactor>
+			<IncomingDamageFactor>0.5</IncomingDamageFactor>
 		</statFactors>
 		<exclusionTags>
 			<li>Toughness</li>
 		</exclusionTags>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>HaloRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>HaloRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
 			</li>
@@ -89,7 +90,7 @@
 			<VEF_CosmeticBodySize_Multiplier>1.25</VEF_CosmeticBodySize_Multiplier>
 		</statFactors>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>HaloRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>HaloRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
 			</li>

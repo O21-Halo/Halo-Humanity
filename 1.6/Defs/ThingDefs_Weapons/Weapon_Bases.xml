@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef Name="HaloRimLaserBeamBase" ParentName="BaseBullet" Abstract="True">
-		<thingClass>VanillaWeaponsExpandedLaser.LaserBeam</thingClass>
+		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<drawOffscreen>true</drawOffscreen>
 		<beamGraphic>HaloRim_LaserGraphic</beamGraphic>
 		<graphicData>
@@ -22,7 +22,7 @@
 
 	<ThingDef Name="HaloRimLaserGraphicBase">
 		<defName>HaloRim_LaserGraphic</defName>
-		<thingClass>VanillaWeaponsExpandedLaser.LaserBeamGraphic</thingClass>
+		<thingClass>VEF.Weapons.LaserBeamGraphic</thingClass>
 		<drawOffscreen>true</drawOffscreen>
 		<label>laser beam</label>
 		<category>Projectile</category>
