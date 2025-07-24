@@ -23,8 +23,8 @@
             </recipeUsers>
 		</recipeMaker>
 		<costList>
-			<Steel>60</Steel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Steel>120</Steel>
+			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>2.5</Mass>

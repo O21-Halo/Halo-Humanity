@@ -83,16 +83,16 @@
             </recipeUsers>
 		</recipeMaker>
 		<costList>
-			<Steel>60</Steel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Steel>100</Steel>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>2.5</Mass>
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
-			<ArmorRating_Sharp>1.26</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.63</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.08</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.68</ArmorRating_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<thingCategories>
