@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Halo - Core</name>
+	<name>Halo - Humanity</name>
 	<author>Neronix17</author>
-    <packageId>Neronix17.Halo.Core</packageId>
+    <packageId>Neronix17.Halo.Humanity</packageId>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
 		<li>1.6</li>
