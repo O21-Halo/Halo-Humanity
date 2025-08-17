@@ -26,7 +26,7 @@
 		</costList>
 		<statBases>
 			<Mass>4</Mass>
-			<WorkToMake>8000</WorkToMake>
+			<WorkToMake>3000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
 			<MarketValue>500</MarketValue>
 			<Insulation_Cold>60</Insulation_Cold>
@@ -88,7 +88,7 @@
 		</costList>
 		<statBases>
 			<Mass>2.5</Mass>
-			<WorkToMake>8000</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
 			<ArmorRating_Sharp>0.98</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.42</ArmorRating_Blunt>
@@ -152,7 +152,7 @@
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
-			<WorkToMake>3000</WorkToMake>
+			<WorkToMake>2000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
 			<ArmorRating_Sharp>1.26</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.63</ArmorRating_Blunt>
@@ -213,7 +213,7 @@
 		</costList>
 		<statBases>
 			<Mass>1.4</Mass>
-			<WorkToMake>4500</WorkToMake>
+			<WorkToMake>3500</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
 			<ArmorRating_Sharp>1.26</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.63</ArmorRating_Blunt>

@@ -16,7 +16,7 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisite>HaloRim_UNSCArmor</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+				<Crafting>6</Crafting>
 			</skillRequirements>
             <recipeUsers Inherit="False">
                 <li>HaloRim_WorkbenchUNSC</li>
